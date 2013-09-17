@@ -1,7 +1,12 @@
 package edu.ggc.it.banner;
 
 import java.io.Serializable;
-
+/** This Course class implements from Serializable and create the get course ID, subject, name, 
+ * description, and hours
+ * 
+ * @author Kajal1
+ *
+ */
 public class Course implements Serializable{
 	private static final long serialVersionUID = -4597480769239854297L;
 	private String subject;
